@@ -1,0 +1,91 @@
+@import "./font-face/fontface.scss";
+
+html {
+  background-color: #fff;
+  body {
+    font-family: "Graphik", sans-serif;
+    padding-top: 30px;
+    direction: rtl;
+    margin: 0;
+    * {
+      margin: 0;
+      box-sizing: border-box;
+      text-decoration: none;
+      outline: 0 !important;
+    }
+
+    img {
+      max-width: none !important;
+    }
+
+    input,
+    textarea,
+    button {
+      outline: 0 !important;
+      font-family: "Graphik", sans-serif;
+    }
+
+    .container {
+      max-width: 1180px;
+      padding: 0 32px;
+      margin: auto;
+    }
+  }
+}
+
+.flex {
+  display: flex;
+}
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+.align-center {
+  align-items: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.mr-5 {
+  margin-right: 5px;
+}
+
+.btn {
+  background-color: #ffee00;
+  width: 91px;
+  height: 30px;
+  border: none;
+  border-radius: 10px;
+  color: #0000a2;
+  font-weight: bold;
+  padding: 5px 0;
+  margin: 0 30px 0 0;
+  cursor: pointer;
+}
+
+.timer-banner {
+  width: 100%;
+  background-color: #5cbfab;
+  height: 150px;
+  padding: 60px;
+
+  .countDown {
+    display: flex;
+    color: #0000a2 !important;
+    font-size: 24px;
+    font-weight: bold;
+    p {
+      color: #fff;
+      font-size: 24px;
+      font-weight: bold;
+    }
+    span {
+      margin: 0 20px;
+    }
+  }
+}

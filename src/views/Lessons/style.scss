@@ -1,0 +1,50 @@
+.cards {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  margin: auto;
+  margin-top: 40px;
+}
+.card {
+  border: 1px solid #111;
+  border-radius: 10px;
+  background-color: #fff;
+  width: 260px;
+  height: 300px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &-blue {
+  height: 320px;
+  background-color: #0000a2;
+    img {
+      width: 120px !important;
+    }
+  }
+  img {
+    width: 180px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 60px;
+  }
+  .btn {
+    width: 100%;
+    background-color: #ffee00;
+    border: none;
+    border-radius: 0 0 10px 10px;
+    color: #0000a2;
+    margin: 0;
+    height: 70px;
+    position: absolute;
+    bottom: 0;
+    font-size: 22px;
+    font-weight: bold;
+
+    &-transparent {
+      background: transparent;
+      color:#fff;
+      bottom: 20px;
+    }
+  }
+}
